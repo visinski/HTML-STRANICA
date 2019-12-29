@@ -1,0 +1,255 @@
+body, html {
+	font-family: 'Verdana',Geneva sans-serif;
+	margin: 0;
+	font-size: 14px;
+	background-image:url("slika/slika.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:black;
+	text-decoration: none;
+        	text-decoration-line: none;
+        	text-decoration-style: solid;
+        	text-decoration-color: currentcolor;
+        	text-decoration-thickness: auto;
+	
+	
+}
+p {
+	margin:1em;
+	line-height:1.4em;
+	letter-spacing:1px;
+	
+}
+header {
+	display: block;
+	width: 100%;
+}
+.contain {
+	img width:auto;
+	max-width:60em;
+    	margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+	background-color:white;
+	border:2px solid black;
+	border-top:1px solid white;
+	border width:auto;	
+}
+.contain a{
+	text-decoration: none;
+        	text-decoration-line: none;
+        	text-decoration-style: solid;
+        	text-decoration-color: currentcolor;
+        	text-decoration-thickness: auto;	
+
+}
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 1px solid black;
+	background-color:white;
+}
+#gallery figcaption {
+	font-size: 90%;
+	height: 50px;
+	text-align: center;
+}
+img{ width:100%
+}
+.grijanje img {
+	width: 13%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.grijanje h4 {
+	margin:0.5em 0.7;
+	font-size: 1.2em;
+	color: black;
+}
+.grijanje a{
+	text-decoration: none;
+        	text-decoration-line: none;
+        	text-decoration-style: solid;
+        	text-decoration-color: currentcolor;
+        	text-decoration-thickness: auto;
+		
+}
+grijanje.p{
+	margin-top:1em;
+	margin-left:1em;
+	margin-right:1em;
+	margin-bottom:1em;
+	}
+
+.grijanje1 figure{
+	margin-top:35px;
+	padding: 0.2em;
+	float: center;
+	width: 38%;
+	border: 1px solid black;
+	text-align:center;
+}
+.grijanje2 figure{
+	margin-top:35px;
+	padding: 0.2em;
+	float: center;
+	width: 38%;
+	border: 1px solid black;
+	text-align:center;
+}
+.grijanje3 figure{
+	margin-top:35px;
+	padding: 0.2em;
+	float: center;
+	width: 39%;
+	border: 1px solid black;
+	text-align:center;
+}
+.klimatizacija figure{
+	margin-top:25px;
+	padding: 0.2em;
+	float: center;
+	width: 30%;
+	border: 1px solid black;
+	text-align:center;
+}
+.voda figure{
+	margin-top:25px;
+	padding: 0.2em;
+	float: center;
+	width: 33%;
+	border: 1px solid black;
+	text-align:center;
+}
+.novosti img {
+	width: 23%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.novosti h4 {
+	margin:0.5em 0.7;
+	font-size: 1.2em;
+	color: black;
+		
+}
+.novosti p{
+	margin-top:1em;
+	margin-left:1em;
+	margin-right:1em;
+	margin-bottom:1em;
+	}
+
+	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+	
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+footer {
+	bottom:0px;
+	position:fixed;
+   	width: 100%;
+   	background-color:#333;
+   	color: white;
+   	text-align: center;
+}
+figure {
+	margin-top:50px;
+	padding: 0.2em;
+	float: left;
+	width: 30%;
+	border: 1px solid black;
+	border-top:1px
+	text-align:center;
+}
+hr{ 	
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-style: inset;
+  	border-width: 1px;
+	border-color:black;
+}
+
+table,th,td,caption{
+	border:1px solid black;
+	border-collapse:collapse;
+	postion:right;
+}
+th,td{
+	padding:20px;
+	text-align:center;
+}
+caption {
+	padding:20px;
+	text-align:center;
+}
+#contact {
+	margin-left:10px;
+}
+label {
+	display: block;
+
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+video {
+	margin-left:10px;
+	margin-right:10px;
+	float: center;
+}	
